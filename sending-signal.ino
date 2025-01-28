@@ -1,4 +1,4 @@
-const int buttonPin = 12; // Connect your button to pin 2
+const int buttonPin = 12; 
 int buttonState = 0;
 
 void setup() {
