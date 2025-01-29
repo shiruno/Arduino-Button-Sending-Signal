@@ -1,7 +1,7 @@
 ## Arduino-Button-Send-Signal
 ![image](https://github.com/user-attachments/assets/811c278d-93e1-401d-9315-c6b227d0a63a)
 
-#### Arduino
+### Arduino
 1. Variable Declaration
    - `const int buttonPin = 12;`: This line defines a constant integer `buttonPin` that represents the digital pin number (12) to which the button is connected.
    - `int buttonState = 0;`: This variable will hold the current state of the button (pressed or not pressed).
@@ -14,7 +14,7 @@
      -  If `buttonState` is HIGH, it sends "1" over the serial connection, indicating the button is pressed.
      -  If `buttonState` is LOW, it sends "0", indicating the button is not pressed.
 
-#### Python
+### Python
 
 
 This code allows a computer to monitor the state of a button connected to an Arduino. When the button is pressed, the Arduino sends a "1" to the computer; when it is not pressed, it sends a "0". The Python script reads this data and prints the corresponding message to the console.
